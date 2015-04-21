@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>;(function($) {
+
+	
+	$(function() {
+		
+		
+		$('.nav').append($('<div class="nav-mobile"></div>'));
+		
+		
+		$('.nav-item').has('ul').prepend('<span class="nav-click"><i class="nav-arrow"></i></span>');
+		
+		
+		$('.nav-mobile').click(function(){
+			$('.nav-list').toggle();
+		});
+	
+		
+		$('.nav-list').on('click', '.nav-click', function(){
+		
+			
+			$(this).siblings('.nav-submenu').toggle();
+			
+			
+			$(this).children('.nav-arrow').toggleClass('nav-rotate');
+			
+		});
+	    
+	});
+	
+})(jQuery);
+                  </script>
+                  
+          <title>Flower Power | Szalone lata 60. !</title>
+          
+     </head>
+     <body>
+            <div id="strona">
+                <div class="main">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li class="nav-item">
+                                <a>Kultura</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="flower_power.html">Flower Power</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="muzyka.html">Muzyka</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="pop-art.html">Pop-art</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a>Znani</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="alfred-hitchcock.html">Alfred Hitchcock</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="bob-dylan.html">Bob Dylan</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="martin-luther-king.html">Martin Luther King</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="john-kennedy.html">John F. Kennedy</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="kosmos.html">W kosmos </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="internet.html">Internet</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="napisz.html">Napisz</a>
+                            </li>
+                        
+                    </ul>
+                 </nav>
+            </div>
+         
+                <article class="group">
+					<h1>Flower Power</h1>
+                        <article class="main">
+                            <h2>Rewolucja</h2> 
+                                 <img src="art/hippies-on-bus.jpg" alt="Zdjęcie - Volkswagen T1 i hipisi">
+                                <p>Była to rewolucja proklamująca bunt młodych przeciwko światu dorosłych (nie wierzcie nikomu po trzydziestce) i jego instytucjom: rodzinie, Kościołowi, szkole, zakładowi pracy, szefom, rywalizacji, pieniądzowi, wojsku, wojnie, normom, przymusom, zakazom (zakazuje się zakazywać), domniemanej hipokryzji, konwencji ubioru, własności prywatnej.</p>
+                                
+                                <p>Konsekwencjami istnienia tego ruchu stało się rozszerzenie zasięgu ruchów pacyfistycznych i ideologii ekologicznych, zainteresowanie duchowością Wschodu, krytyka wyścigu szczurów, konformizmu i wszelkiego konsumpcjonizmu. Ruch ten przyczynił się do rozpowszechnienia substancji psychoaktywnych, w szczególności marihuany. Był jednym z ogniw przyczyniających się do tzw. rewolucji seksualnej. Stanowił też jedno z pośrednich źródeł ruchu New Age.</p>
+                            
+                            </article>    
+                            <article>
+                                <h2>Make love, not war</h2>
+                                    <img class="img-flower-power" src="art/hippie.jpg" alt="Zdjęcie - Make love, not war (czyń miłość, nie wojnę)">
+                                    <p>Nadbudową ideologiczną ruchu hippisowskiego był skrajny pacyfizm, co wyrażają hasła Make love, not war (czyń miłość, nie wojnę), Non-violence (bez przemocy) i Peace and love (pokój i miłość). Wszyscy ludzie są braćmi, a świat jest na tyle duży, że starczy na nim miejsca dla każdego</p>
+                                    
+                                    
+                                    <p>Hippis żyje dniem dzisiejszym, żyje każdą chwilą, nie martwi się o to, co będzie jutro, nie nosi zegarka, bo czas dla niego jako taki nie istnieje. Chodzi boso, gdyż jest dzieckiem ziemi i nie depcze matki natury, stara się żyć z nią w zgodzie i ją rozumieć. Unika kontaktów z wszelkimi instytucjami, zarówno świeckimi, jak i kościelnymi, a zawsze robi swoje. Hippis prowadzi życie w drodze, tzn. nie ma stałego domu, ciągle się przemieszcza. Żyje w zgodzie z naturą i odrzuca normy, które obowiązywały w świecie dorosłych, a zastępuje je własnymi kryteriami moralnymi, które cechowała daleko posunięta swoboda obyczajów – zamiast wojować, lepiej uprawiać seks. </p>
+                                    
+                            
+                                    <p>Hippis zwykle jest wegetarianinem – zwierzęta to moi przyjaciele, a ja nie jadam przyjaciół. Często żyje w tzw. komunie hippisowskiej, gdzie wszystko jest wspólne, nawet dzieci. Stara się być samowystarczalny, uprawia ziemię, szyje ubrania, wykonuje drobne sprzęty codziennego użytku. Zazwyczaj nie posiada stałego zatrudnienia.</p>
+                            </article>
+                                
+                            <article>
+                                <h2>Chart afgański i Ibiza</h2>
+                                    <img class="img-flower-power" alt="Zdjęcie - Hipisi na Ibizie" src="art/ibiza.JPG">
+                                    <p>W latach 70. wśród hippisów szczególnym poważaniem cieszył się chart afgański. Powodem tego nie był tylko wygląd psa, którego długie włosy mogłyby przypominać psiego hippisa, ale jego charakter. Jest to bodajże najtrudniejsza do ułożenia rasa psów, która nigdy nie nawiązuje bliskiego kontaktu z ludźmi. Ta właśnie ich wyniosłość i niezależność tak urzekła hippisów, że ci widzieli w nich bratnie dusze</p>
+                                    
+                                    <p>Również w latach 70. hippisi "odkryli" Ibizę – wyspę na Morzu Śródziemnym nieskażoną przez cywilizację i nieznaną turystom. Zaczęli tu przyjeżdżać, by z dala od cywilizacji zaznawać swoistego spokoju ducha. Do dzisiaj na wyspie można ich spotkać i są miejscową atrakcją turystyczną. Skomercjalizowali się i żyją sprzedając własnoręcznie wykonane hippisowskie pamiątki turystom.</p>
+                            </article>
+                </article>
+                <footer>Creative by Julia Pukalska</footer>
+         </div>
+     </body>
+</html>
+    

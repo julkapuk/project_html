@@ -1,0 +1,604 @@
+
+body {
+	background:white;
+}
+a, a:hover {
+	text-decoration:none
+}
+ul, ol {
+	list-style:none;
+}
+#strona{
+	max-width:1280px;
+	width:95%;
+	margin:1% auto;
+    position:relative;
+}
+h1{
+    word-spacing:.1em;
+    text-align:center;
+    font-size:2em;
+    font-weight:600;
+}
+h2{
+    word-spacing:.1em;
+    font-size:1.3em;
+    color:#8B2870;
+    text-align:center;
+    font-weight:700;
+}
+h3{
+    font-size:1.1em;
+    color:#8B2870;
+    text-align:center;
+    font-weight:700;
+}
+.main {
+	width:100%;
+	text-align:center;
+}
+start{
+    position:relative;
+    text-align:center;
+    margin:2% auto;
+    
+}
+.highlight{
+    color:#333;
+    font-weight:900;
+}
+article{
+    width:90%;
+	margin:2% auto;
+    font-family:Georgia,serif;
+    font-size:16px;
+}
+
+blockquote{
+    padding-top:0;
+    color:#717272;
+    letter-spacing:.1em;
+    word-spacing:.2em;
+}
+p{
+    padding-bottom:2em;
+    font-family:inherit;
+    font-size:16px;
+    line-height:1.5em;
+    text-align:center;
+}
+footer{
+    position:absolute;
+    bottom:-150px;
+    height:25px;
+    width:100%;
+    font-weight:900;
+	text-align:right;
+    color:#333;
+    font-family:Georgia,serif;
+    letter-spacing:.5em;
+    font-size:12px;
+    padding-top:5%;
+}
+/*----------------------------------------------
+                Flower power
+----------------------------------------------*/
+
+.flower_power{
+    position:relative;
+}
+.img-flower-power{
+    float:left;
+    padding:0 3% 2% 0;
+}
+.tresc{
+    position:relative;
+}
+.video{
+    padding-top: 5%;
+    width:100%;
+	text-align:center;
+}
+iframe{
+    width:640px;
+    height:480px;
+    border:none;
+}
+/*----------------------------------------------
+                Znani
+----------------------------------------------*/
+
+.img-people{
+    float:left;
+    width:30%;
+}
+.p-people{
+    font-size:15px;
+    background:pink;
+    padding-bottom:none;
+    padding-top:8px;
+    padding-left:10%;
+    text-align:left;
+    float:right;
+    width:60%;
+}
+/*----------------------------------------------
+                Tabela
+----------------------------------------------*/
+
+table{  
+    margin:1% auto;
+    text-align:center;
+    font-family:inherit;
+    font-size:16px;
+    line-height:1.5em;
+    border-collapse:collapse;
+}
+caption{
+    margin-bottom:30px;
+    font-size:1.4em;
+    color:#8B2870;
+    font-weight:800;
+}
+th{
+    font-weight:600;
+    text-align:center;
+    color:#8B2870;
+    border-bottom:1px #8B2870 solid;
+    border-collapse:separate;
+}
+td{
+    width:10%;
+    padding: 0 1%;
+    /*background:pink;*/
+}
+.td-scenariusz{
+    width:13%;
+    /*background:silver;*/
+}
+.td-aktorzy{
+    width:15%;
+    /*background:blue;*/
+}
+.td-data{
+    width:5%;
+    /*background:green;*/
+}
+.th-opis{
+    padding:3% 0 0 3%;
+    width:35%;
+    text-align:center;
+    /*background:red;*/
+}
+.td-opis{
+    padding:3% 0 0 3%;
+    width:40%;
+    text-align:justify;
+    /*background:red;*/
+}
+/*----------------------------------------------
+                Pop-art
+----------------------------------------------*/
+#pop-art{
+    margin-right:50px;
+}
+.border{
+    float:left;
+    width:250px;
+    height:250px;
+    border:2px solid black;
+    margin:5px;
+    background: no-repeat center center;
+    text-align:center;
+}
+#one{
+    float:right;
+    background:url("art/1a.jpg");
+}
+#one:hover {
+    background:url("art/1b.jpg");
+}
+#two{
+    float:right;
+    background:url("art/2a.jpg");
+}
+#two:hover {
+    background:url("art/2b.jpg");
+}
+#three{
+    float:right;
+    background:url("art/12a.jpg");
+}
+#three:hover {
+    background:url("art/12b.jpg");
+}
+#four{
+    float:right;
+    background:url("art/3a.jpg");
+}
+#four:hover {
+    background:url("art/3b.jpg");
+}
+#five{
+    float:right;
+    background:url("art/6a.jpg");
+}
+#five:hover {
+    background:url("art/6b.jpg");
+}
+#six{
+    float:right;
+    background:url("art/7a.jpg");
+}
+#six:hover {
+    background:url("art/7b.jpg");
+}
+#seven{
+    float:right;
+    background:url("art/5a.jpg");
+}
+#seven:hover {
+    background:url("art/5b.jpg");
+}
+#eight{
+    float:right;
+    background:url("art/4a.jpg");
+}
+#eight:hover {
+    background:url("art/4b.jpg");
+}
+#nine{
+    float:right;
+    background:url("art/11a.jpg");
+}
+#nine:hover {
+    background:url("art/11b.jpg");
+}
+#ten{
+    float:right;
+    background:url("art/10a.jpg");
+}
+#ten:hover {
+    background:url("art/10b.jpg");
+}
+#eleven{
+    float:right;
+    background:url("art/9a.jpg");
+}
+#eleven:hover {
+    background:url("art/9b.jpg");
+}
+#twelve{
+    float:right;
+    background:url("art/8a.jpg");
+}
+#twelve:hover {
+    background:url("art/8b.jpg");
+}
+
+/*----------------------------------------------
+                Internet
+----------------------------------------------*/
+.p-internet{
+    text-align:justify;
+}
+.internet-1{
+    float:left;
+    width:55%;
+    padding-right:5%;
+    padding-top:2%;
+}
+.internet-2{
+    float:right;
+    width:35%;
+    padding-left:5%;
+    padding-top:2%;
+}
+.internet-bottom{
+    float:right;
+    width:60%;
+    padding:0 20%;
+}
+#list{
+    position:relative;
+}
+#h-list{
+    position:absolute;
+    top:0;
+    left:0px;
+    font-size:1.1em;
+    color:#8B2870;
+    font-weight:600;
+}
+#list li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:absolute;
+    top:0;
+}
+#list li, #list a{
+    height:100px;
+    display:block;
+}
+
+#prev{
+    left:100px;
+    width:200px;
+    background:url(art/sprites.jpg) 0 0 no-repeat;
+}
+
+
+#next{
+    left:200px;
+    width:200px;
+    background:url(art/sprites.jpg) -200px 0 no-repeat;
+}
+
+
+/*----------------------------------------------
+                Kosmos
+----------------------------------------------*/
+.video{
+    padding-top:5%;
+}
+.moon{
+    padding-top:10%;
+    position:relative;
+    margin:1% auto;
+}
+.img-moon{
+    float:right;
+    width:40%;
+}
+.img-moon2{
+    float:left;
+    width:40%;
+}
+.p-moon{
+    float:right;
+    width:58%;
+    padding-left:2%;
+}
+.p-moon2{
+    float:left;
+    width:58%;
+    padding-right:2%;
+        
+}
+/*----------------------------------------------
+                 Napisz
+----------------------------------------------*/
+form{
+    width:85%;
+    margin:1% auto;
+}
+#zaloguj-sie{
+    margin-top:4%; 
+    padding-left:3%;
+}
+#o-tobie{
+    position:relative;
+    margin-top:3%;
+    padding:2% 0 2% 3%;
+}
+legend{
+    color:#8B2870;
+    text-align:left;
+    font-size:16px;
+}
+.bottom{
+    margin-top:2%;
+    font-size:16px;
+    font-family:inherit;
+}
+.bottom:hover{
+    color:white;
+    background:#8B2870;
+    border:5px solid #8B2870;
+}
+#reset{
+    font-family:inherit;
+    position:absolute;
+    bottom:1%;
+    right:3%;
+}
+#reset:hover{
+    color:white;
+    background:#333;
+    border:none;
+}
+#znak{
+    color:#8B2870;
+}
+/*----------------------------------------------
+            Navligacja
+----------------------------------------------*/
+
+nav {
+    margin-right:40px;
+	position:relative;
+	display:inline-block;
+    font-family:Georgia,serif;
+	font-size:14px;
+	font-weight:650;
+    letter-spacing:.1em;
+}
+.nav-list {
+	text-align:left;
+}
+.nav-item {
+	float:left;
+	*display:inline;
+	zoom:1;
+	position:relative;
+}
+.nav-item a {
+	display:block;
+	color:#FFF;
+	padding:15px 20px;
+	background:#333;
+	border-bottom:1px solid #8B2870;
+}
+.nav-item > a:hover {
+	background:#822368;
+	background:#822368;
+}
+.nav-item:hover .nav-submenu {
+	display:block;
+}
+/* Navigation submenu */
+.nav-submenu {
+	display:none;
+	position:absolute;
+	left:0;
+	width:180px;
+}
+.nav-submenu-item a {
+	background:#333;
+	border-bottom:1px solid #9A337E;
+	display:block;
+	padding:15px;
+}
+.nav-submenu-item a:hover {
+	background:#932C77;
+}
+/*----------------------------------------------
+                Mała navligacja
+----------------------------------------------*/
+.nav-mobile {
+	display:none;
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	background:#333 url(art/nav.svg) no-repeat center center;
+	background-size:18px;
+	height:50px;
+	width:50px;
+}
+.nav-click {
+	position:absolute;
+	top:0;
+	right:0;
+	display:none;
+	height:49px;
+	width:50px;
+	cursor:pointer;
+}
+.nav-click i {
+	display:block;
+	height:47px;
+	width:48px;
+	background:#333 url(art/drop.svg) no-repeat center center;
+    /*border-bottom:1px solid #9A337E;*/
+	background-size:20px;
+}
+.nav-click>i:hover {
+	background-color:#6E1656;
+}
+.nav-rotate {
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+/*----------------------------------------------
+----------------------------------------------*/
+.group:after{
+content: "";
+display: table;
+clear: both;
+}
+/*----------------------------------------------
+                Wydrukuj
+----------------------------------------------*/
+@media print{
+    
+    .nav, #list{
+        visibility:hidden;
+    }
+    p{
+        font-size:12px;
+        text-align:center;
+        padding:0;
+    }
+    h2{
+        font-size:14px;
+    }
+}
+/*----------------------------------------------
+                Mały ekran
+----------------------------------------------*/
+
+@media all and (max-width: 768px) {
+   
+    img, section{
+        float:none;
+        width:100%;
+        margin:1% auto;
+    }
+    table{
+        width:100%;
+    }
+    iframe{
+        width:420px;
+        height:315px;
+        border:none;
+    }
+    
+    .internet-1, .internet-2, .internet-bottom{
+        float:none;
+        width:100%;
+        margin:1% auto;
+        padding:0;
+    }
+    .img-people{
+        float:left;
+        width:70%;
+    }
+    .p-people{
+        float:right;
+        text-align:center;
+        width:80%;
+        padding: 4%% 5% 6% 5%;
+    }
+    .p-moon, .p-moon2, .img-moon, .img-moon2{
+        float:none;
+        width:100%;
+        padding:2% auto;
+    }
+	.nav-mobile {
+		display:block;
+	}
+	.nav {
+		width:100%;
+		padding:50px 0 0;
+	}
+	.nav-list {
+		display:none;
+	}
+	.nav-item {
+		width:100%;
+		float:none;
+	}
+	.nav-item > a {
+		padding:15px;
+	}
+	.nav-click {
+		display:block;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+	.nav-item:hover .nav-submenu {
+		display:none;
+	}
+	.nav-submenu {
+		position:static;
+		width:100%;
+	}
+}

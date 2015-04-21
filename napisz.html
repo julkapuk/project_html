@@ -38,7 +38,7 @@
 })(jQuery);
                   </script>
                   
-          <title>Szalone lata 60. !</title>
+          <title>Napisz do mnie | Szalone lata 60. !</title>
           
      </head>
      <body>
@@ -95,16 +95,52 @@
                     </ul>
                  </nav>
             </div>
-            
-            <article class="group">
-					<h1>Szalone lata sześćdziesiąte!</h1>
-                        <div class="main">
-                                 <img src="art/img_start.jpg" alt="Kolaż powitalny">
+                <article class="group">
+					<h1>Napisz do mnie...</h1>
+                        <form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="post">
+                            <fieldset id="zaloguj-sie">
+                             <legend>Zaloguj się</legend>
+                                   <label for="twoje-imie">Twoja nazwa</label>
+                                        <input type="text" name="twoje-imie" id="twoje-imie"><br>
+                                   <label for="sumbit">Hasło</label>
+                                        <input type="password" name="haslo" id="haslo"><br>
+                                        <input class="bottom" id="sumbit" type="submit" name="ok" value="OK">  
+                            </fieldset>
+                            </form>
                             
-                        </div> 
-            </article>
-                 <footer>Creative by Julia Pukalska</footer>
-        </div>
+                            <form action="http://wierzba.wzks.uj.edu.pl/~kwrobel/DH/test.php" method="get">
+                                <fieldset id="o-tobie">
+                                 <legend>O Tobie</legend>
+                                       <label for="ksiezyc">Czy byłes/ byłas na Księżycu ?</label><br>
+                                            <input type="radio" name="ksiezyc" id="ksiezyc" value="tak" checked> Jasne.<br>
+                                            <input type="radio" name="ksiezyc" value="nie"> Niestety, jeszcze nie.<br><br>
+                                        <label for="kwiaty">Jakie kwatki lubisz ?</label><br>
+                                                    <input type="checkbox" name="kwiaty1" id="kwiaty" value="fiolki">Fiołki<br>
+                                                    <input type="checkbox" name="kwiaty2" value="bzy">Bzy<br>
+                                                    <input type="checkbox" name="kwiaty3" value="astry">Astry<br>
+                                                    <input type="checkbox" name="kwiaty4" value="habry">Habry<br>
+                                                    <input type="checkbox" name="kwiaty5" value="sloneczniki">Słoneczniki<br><br>  
+                                        <label for="znak">Wybierz znak:</label>
+                                            <select name="znak" id="znak">
+                                                 <option value="&spades;">&spades;</option>
+                                                 <option value="&clubs;">&clubs;</option>
+                                                 <option value="&hearts;">&hearts;</option>
+                                                 <option value="&diams;">&diams;</option>
+                                                 
+                                            </select><br><br>
+                                            
+                                        <label for="opis">Miejsce dla Ciebie</label><br>
+                                           <textarea cols="30" rows="10" name="opis" id="opis" >Napisz coś :)</textarea><br>
+                    
+                                           
+                                            <input class="bottom" type="submit" name="wyslij" value="Wyślij">
+                                            <input id="reset" type="reset" name="reset" value="Usuń">
+                                </fieldset>
+                            </form>
+                        
+                </article>
+                <footer>Creative by Julia Pukalska</footer>
+         </div>
      </body>
 </html>
     

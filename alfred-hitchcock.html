@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>;(function($) {
+
+	
+	$(function() {
+		
+		
+		$('.nav').append($('<div class="nav-mobile"></div>'));
+		
+		
+		$('.nav-item').has('ul').prepend('<span class="nav-click"><i class="nav-arrow"></i></span>');
+		
+		
+		$('.nav-mobile').click(function(){
+			$('.nav-list').toggle();
+		});
+	
+		
+		$('.nav-list').on('click', '.nav-click', function(){
+		
+			
+			$(this).siblings('.nav-submenu').toggle();
+			
+			
+			$(this).children('.nav-arrow').toggleClass('nav-rotate');
+			
+		});
+	    
+	});
+	
+})(jQuery);
+                  </script>
+                  
+          <title>Alfred Hitchcock | Szalone lata 60. !</title>
+          
+     </head>
+     <body>
+            <div id="strona">
+                <div class="main">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="index.html">Start</a>
+                            </li>
+                           <li class="nav-item">
+                                <a>Kultura</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="flower_power.html">Flower Power</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="muzyka.html">Muzyka</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="pop-art.html">Pop-art</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a>Znani</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="alfred-hitchcock.html">Alfred Hitchcock</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="bob-dylan.html">Bob Dylan</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="martin-luther-king.html">Martin Luther King</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="john-kennedy.html">John F. Kennedy</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="kosmos.html">W kosmos </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="internet.html">Internet</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="napisz.html">Napisz</a>
+                            </li>
+                        
+                    </ul>
+                 </nav>
+            </div>
+                    <article class="group">
+                            <h1>Alfred Hitchcock</h1>
+                              <article>
+                                  <img class="img-people" src="art/Alfred-Hitchcock.jpg" alt="Alfred Hitchcock">
+                                  <p class="p-people">
+                                      Alfred Joseph Hitchcock (ur. 13 sierpnia 1899 w Londynie, zm. 29 kwietnia 1980 w Los Angeles) – brytyjski reżyser i producent filmowy odznaczony Orderem Imperium Brytyjskiego, pionier suspensu i thrillera psychologicznego. Po zrealizowaniu wielu udanych filmów w Wielkiej Brytanii przeniósł się do Hollywood. W 1956 otrzymał obywatelstwo amerykańskie. Często uważany jest za najlepszego brytyjskiego reżysera wszech czasów i jednego z najlepszych i najbardziej wpływowych reżyserów w historii kina. Do jego najważniejszych filmów należą: <span class="highlight">Okno na podwórze, Zawrót głowy, Psychoza, Północ, północny zachód, Ptaki, Rebeka</span>.
+                                  </p>
+                              </article>
+                    </article>
+                              <article>                       
+                                    <table>
+                                    
+                                        <caption>Wybrane filmy</caption>
+                                        <tr>
+                                            <th>Tytuł</th>
+                                            <th class="td-data">Data powstania</th>
+                                            <th class="td-scenariusz">Scenariusz</th>
+                                            <th class="td-aktorzy">Główne role</th>
+                                            <th class="th-opis">Opis</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Psychoza <br>(Psycho)</td>
+                                            <td class="td-data">1960</td>
+                                            <td class="td-scenariusz">Joseph Stefano<br>(na podstawie powieści Roberta Blocha)</td>
+                                            <td class="td-aktorzy">Anthony Perkins, Janet Leigh, Martin Balsam, Vera Miles, John Gavin, John McIntire</td>
+                                            <td class="td-opis">Marion Crane ma dosyć życia jakie prowadzi, dosyć tego, że nie może wyjść za swojego ukochanego Sama z powodu braku pieniędzy. Pewnego dnia, Marion wyjeżdża z miasta z pieniędzmi aby rozpocząć nowe życie. Zatrzymuje się w The Bates Motel prowadzonym przez młodego mężczyznę Normana, który zdaje się być zdominowany przez własną matkę.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ptaki <br>(The Birds)</td>
+                                            <td  class="td-data">1963</td>
+                                            <td class="td-scenariusz">Evan Hunter<br>(na podstawie powieści Daphne du Maurier)</td>
+                                            <td class="td-aktorzy">Rod Taylor, Tippi Hedren, Suzanne Pleshette, Jessica Tandy, Veronica Cartwright</td>
+                                            <td class="td-opis">W San Francisco Melanie Daniels spotyka w sklepie zoologicznym Mitcha Brennera. Mitch szuka pary papużek na prezent urodzinowy dla swej młodszej siostry, Melanie też kupuje ptaki i jedzie do małego miasteczka Bodega Bay, gdzie Mitch z rodziną spędza weekend.Jak się okazuje, to dopiero początek.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Marnie <br>(Marnie)</td>
+                                            <td  class="td-data">1964</td>
+                                            <td class="td-scenariusz">Winston Graham<br>(na podstawie powieści Jaya Pressona Allena)</td>
+                                            <td class="td-aktorzy">Tippi Hedren, Sean Connery, Diane Baker, Martin Gabel</td>
+                                            <td class="td-opis">Marnie Edgar jest nałogową złodziejką. Wykorzystuje swój wygląd by zdobyć zaufanie swoich przełożonych, okraść ich, i zmienić swoją tożsamość.Marnie ubiega się o prace w firmie wydawniczej Marka Rutlanda. Mark rozpoznaje ją, gdyż jest klientem jej ostatniego pracodawcy, ale zamiast wydania jej policji, decyduje się ją obserwować.</td>
+                                        </tr>
+                                         <tr>
+                                            <td>Rozdarta kurtyna<br> (Torn Curtain)</td>
+                                            <td  class="td-data">1966</td>
+                                            <td class="td-scenariusz">Brian Moore</td>
+                                            <td  class="td-aktorzy">Julie Andrews, Paul Newman</td>
+                                            <td class="td-opis">Michael Armstrong jest profesorem fizyki nuklearnej, który udaje zagorzałego komunistę – w rzeczywistości jest szpiegiem, usiłującym odkryć jeden z rosyjskich projektów podczas zimnej wojny. Leci więc do Wschodniego Berlina, natomiast jego narzeczona panikuje, gdy dowiaduje się, że jej niezwykle przystojny ukochany ma zamiar zdradzić swoją ojczyznę i postanawia podążyć za nim</td>
+                                        </tr>
+                                         <tr>
+                                            <td>Topaz <br>(Topaz)</td>
+                                            <td class="td-data">1969</td>
+                                            <td class="td-scenariusz">Samuel A. Taylor<br>(na podstawie powieści Leona Urisa)</td>
+                                            <td  class="td-aktorzy">Philippe Noiret, Michel Piccoli, Frederick Stafford, Dany Robin</td>
+                                            <td class="td-opis">Trwa kryzys kubański. Napięcie sięga zenitu i losy świata uzależnione są od tego, jak zachowają się dwa mocarstwa posiadające arsenał nuklearny. Tymczasem Amerykanie otrzymują poufne informacje dotyczące strategicznych planów Rosji. CIA wysyła do Hawany francuskiego szpiega, którego zadaniem jest dokładne zlokalizowanie baz oraz rozszyfrowanie tajemniczej organizacji wywiadowczej "Topaz".</td>
+                                        </tr>
+                                </table>
+                            </article>
+                 <footer>Creative by Julia Pukalska</footer>
+        </div>
+     </body>
+</html>
+    

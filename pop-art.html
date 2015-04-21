@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link href="style.css" rel="stylesheet">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>;(function($) {
+
+	
+	$(function() {
+		
+		
+		$('.nav').append($('<div class="nav-mobile"></div>'));
+		
+		
+		$('.nav-item').has('ul').prepend('<span class="nav-click"><i class="nav-arrow"></i></span>');
+		
+		
+		$('.nav-mobile').click(function(){
+			$('.nav-list').toggle();
+		});
+	
+		
+		$('.nav-list').on('click', '.nav-click', function(){
+		
+			
+			$(this).siblings('.nav-submenu').toggle();
+			
+			
+			$(this).children('.nav-arrow').toggleClass('nav-rotate');
+			
+		});
+	    
+	});
+	
+})(jQuery);
+                  </script>
+                  
+          <title>Pop-art | Szalone lata 60. !</title>
+          
+     </head>
+     <body>
+            <div id="strona">
+                <div class="main">
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="index.html">Start</a>
+                            </li>
+                            <li class="nav-item">
+                                <a>Kultura</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="flower_power.html">Flower Power</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="muzyka.html">Muzyka</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="pop-art.html">Pop-art</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a>Znani</a>
+                                <ul class="nav-submenu">
+                                    <li class="nav-submenu-item">
+                                        <a href="alfred-hitchcock.html">Alfred Hitchcock</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="bob-dylan.html">Bob Dylan</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="martin-luther-king.html">Martin Luther King</a>
+                                    </li>
+                                    <li class="nav-submenu-item">
+                                        <a href="john-kennedy.html">John F. Kennedy</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="kosmos.html">W kosmos </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="internet.html">Internet</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="napisz.html">Napisz</a>
+                            </li>
+                        
+                    </ul>
+                 </nav>
+            </div>
+            
+            
+             <article class="group">
+					<h1>Pop-art</h1>
+                            <article class="main">
+                            <div id="pop-art">   
+                                  <a href="http://www.marta-minujin.com/">
+                                      <div class="border"  id="one"></div>
+                                  </a>
+                                  <a href="http://www.warholfoundation.org/legacy/biography.html">
+                                      <div class="border" id="two"></div>
+                                  </a>
+                                  <a href="http://www.nikidesaintphalle.com/">
+                                      <div class="border" id="three"></div>
+                                  </a>
+                                  <a href="http://www.tate.org.uk/art/artists/peter-blake-763">
+                                      <div class="border" id="four"></div>
+                                  </a>
+                                  <a href="http://www.haring.com/">
+                                      <div class="border" id="five"></div>
+                                  </a>
+                                  <a href="http://www.bbc.co.uk/arts/yourpaintings/artists/patrick-caulfield">
+                                      <div class="border" id="six"></div>
+                                  </a>
+                                  <a href="http://www.hockneypictures.com/works_paintings_60.php">
+                                      <div class="border" id="seven"></div>
+                                  </a>
+                                  <a href="http://www.jasperjohns.com/">
+                                      <div class="border" id="eight"></div>
+                                  </a>
+                                  <a href="http://www.kunsthalle.at/en/kunsthalle-krems/exhibitions/kiki-kogelnik">
+                                      <div class="border" id="nine"></div>
+                                  </a>
+                                  <a href="http://artgallery.yale.edu/exhibitions/exhibition/red-grooms-larger-life">
+                                      <div class="border" id="ten"></div>
+                                  </a>
+                                  <a href="http://www.awdsgn.com/classes/fall09/webI/student/trad_mw/burgan/final_project/pages/his_work.html">
+                                      <div class="border" id="eleven"></div>
+                                  </a>
+                                  <a href="http://robertindiana.com/">
+                                      <div class="border" id="twelve"></div>
+                                  </a>
+                                 
+                            </div>  
+                            </article>
+                 </article>
+       
+                 <footer>Creative by Julia Pukalska</footer>
+        </div>
+     </body>
+</html>
+    
